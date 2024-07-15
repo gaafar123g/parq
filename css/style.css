@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  margin-left: auto;
 }
 .navbar ul {
   margin: 0;
@@ -743,9 +744,11 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  width: -webkit-fill-available;
 }
 .services .icon-box .icon {
-  margin-bottom: 10px;
+  text-align: center;
+  margin-top: -30px;
 }
 .services .icon-box .icon i {
   color: #47b2e4;
